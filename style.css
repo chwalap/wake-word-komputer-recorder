@@ -1,0 +1,19 @@
+#progressBar {
+  width: 100%;
+  background-color: grey;
+}
+
+#Bar {
+  width: 0%;
+  height: 30px;
+  background-color: green;
+}
+
+ul {
+  list-style: none;
+}
+
+#recordingslist audio {
+  display: inline-block;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nagraj jak mówisz słowo "komputer"</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <h1>Nagraj jak mówisz słowo "komputer"!</h1>
+      <h4>Aby nagrać nowe nagranie naciśnij spację.</h4>
+      <h4>Każde nagranie trwa równo jedną sekundę.</h4>
+      <h4>Nagrania możesz pobrać w jednej pacze i wysłać mi na maila chwala.pawel@gmail.com</h4>
+
+      <div id="progressBar">
+        <div id="Bar"></div>
+      </div>
+
+      <h3>Pobierz zip</h3>
+      <button onclick="downloadZip()">Pobierz</button>
+
+      <h3>Nagrania</h3>
+      <ul id="recordingslist"></ul>
+    </main>
+    <script src="lib/Recorderjs/dist/recorder.js">Pobierz</script>
+    <script src="lib/jszip/dist/jszip.js"></script>
+    <script src="lib/jszip/vendor/FileSaver.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+    <script src="recorder.js"></script>
+  </body>
+</html>
